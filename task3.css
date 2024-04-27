@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .stopwatch {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .display {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #start {
+    background-color: #0095ff;
+    color: white;
+  }
+  
+  #stop, #reset {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  #lap {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .laps li {
+    margin-bottom: 5px;
+  }
+  
